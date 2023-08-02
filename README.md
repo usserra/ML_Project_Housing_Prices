@@ -21,6 +21,16 @@ To run the project, follow these steps:
 4. Activate the environment: pyenv activate ml_project_env.
 5. Install project dependencies: poetry install. 
 
+## Libraries
+python = ">=3.9, <3.12"
+pandas = "^2.0.3"
+seaborn = "^0.12.2"
+keras = "^2.13.1"
+scikit-learn = "^1.3.0"
+tensorflow = "^2.13.0"
+numpy = ">=1.19,<=1.24.3"
+matplotlib = "^3.7.2"
+xgboost = "^1.7.6"
 ## Dataset description
 The dataset contains a mix of numerical and categorical data with 19 columns containing NaN values.
 ![Histogram](https://user-images.githubusercontent.com/123895232/257803209-5c474aec-993b-4920-9311-58e4a3680a49.png)
@@ -124,3 +134,6 @@ All models with different data cleaning methods had similar R^2 scores. However 
 ![Regression_Graph_Project_4](https://user-images.githubusercontent.com/123895232/257810561-4715cb08-d473-4436-a96d-165fb936ea53.png)
 
 Above are regression graphs created for each XGBoost model prediction and the actual price. Closer the points are to the best-fit line (red line) more accurate the model is. As it can be seen in the first graph the points are well aligned around the red line with little fluctuations compared to other projects thus prooving it is the best model out of all 4.  
+
+## Contributors
+@EgeAtesalp (Reviewer)
